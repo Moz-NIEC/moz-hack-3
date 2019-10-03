@@ -1614,6 +1614,16 @@ a.box:active {
     padding-left: 1em;
     padding-right: 1em; }
 
+  .button.is-rounded{
+    opacity:0.6;
+  }
+
+  .button.is-rounded:hover{
+    opacity:1;
+    transition: 0.3s;
+  }
+
+
 .buttons {
   align-items: center;
   display: flex;
